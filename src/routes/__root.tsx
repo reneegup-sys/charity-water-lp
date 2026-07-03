@@ -77,14 +77,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "charity: water — Impact you can actually verify" },
+      { name: "description", content: "The most transparent way to fund clean water. 100% of public donations fund water projects — GPS-tagged so you can see exactly where your money goes." },
+      { property: "og:title", content: "charity: water — Impact you can actually verify" },
+      { property: "og:description", content: "The most transparent way to fund clean water — built for people who care where their money goes." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
