@@ -77,9 +77,7 @@ function Index() {
               <div className="absolute -inset-3 rounded-[2rem] bg-peach/50 -rotate-2" aria-hidden="true" />
               <img
                 src={heroImage}
-                alt="A young woman in Nepal laughing joyfully at a clean water tap in her village"
-                width={1536}
-                height={1536}
+                alt="A young girl in Nepal drinking clean water from a village tap"
                 className="relative aspect-square w-full rounded-[1.75rem] object-cover shadow-soft"
               />
               <div className="absolute -bottom-5 -left-5 hidden rounded-2xl bg-white p-4 shadow-soft md:block">
