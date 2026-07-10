@@ -1,6 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { MapPin, HandCoins, ShieldCheck, Coffee, ArrowRight } from "lucide-react";
-import heroImage from "@/assets/hero-water.jpg";
+import heroAsset from "@/assets/nepal-hero.jpg.asset.json";
+import jerryCanAsset from "@/assets/jerry-can.png.asset.json";
+const heroImage = heroAsset.url;
+const jerryCanUrl = jerryCanAsset.url;
 
 export const Route = createFileRoute("/")({
   component: Index,
