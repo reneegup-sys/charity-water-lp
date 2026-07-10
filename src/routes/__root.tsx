@@ -80,9 +80,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "charity: water — Impact you can actually verify" },
       { name: "description", content: "The most transparent way to fund clean water. 100% of public donations fund water projects — GPS-tagged so you can see exactly where your money goes." },
       { property: "og:title", content: "charity: water — Impact you can actually verify" },
-      { property: "og:description", content: "The most transparent way to fund clean water — built for people who care where their money goes." },
+      { property: "og:description", content: "The most transparent way to fund clean water. 100% of public donations fund water projects — GPS-tagged so you can see exactly where your money goes." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "charity: water — Impact you can actually verify" },
+      { name: "twitter:description", content: "The most transparent way to fund clean water. 100% of public donations fund water projects — GPS-tagged so you can see exactly where your money goes." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a18a78b8-58f5-4dfe-9a19-27625175fdd5/id-preview-01387137--001b4815-d55e-4d9e-8283-4fe07670e927.lovable.app-1783642283162.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a18a78b8-58f5-4dfe-9a19-27625175fdd5/id-preview-01387137--001b4815-d55e-4d9e-8283-4fe07670e927.lovable.app-1783642283162.png" },
     ],
     links: [
       {
