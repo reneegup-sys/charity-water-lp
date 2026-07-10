@@ -1,6 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { MapPin, HandCoins, ShieldCheck, Coffee, ArrowRight } from "lucide-react";
-import heroImage from "@/assets/hero-water.jpg";
+import heroAsset from "@/assets/nepal-hero.jpg.asset.json";
+import jerryCanAsset from "@/assets/jerry-can.png.asset.json";
+const heroImage = heroAsset.url;
+const jerryCanUrl = jerryCanAsset.url;
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -9,12 +12,7 @@ export const Route = createFileRoute("/")({
 function JerryCanLogo({ className = "" }: { className?: string }) {
   return (
     <div className={`flex items-center gap-2 ${className}`}>
-      <svg viewBox="0 0 32 32" className="h-7 w-7" aria-hidden="true">
-        <rect x="6" y="8" width="18" height="20" rx="2" fill="var(--color-yellow)" />
-        <rect x="10" y="4" width="8" height="5" rx="1" fill="var(--color-yellow)" />
-        <rect x="13" y="14" width="6" height="2" fill="var(--color-navy)" opacity="0.85" />
-        <circle cx="24" cy="12" r="2" fill="var(--color-yellow)" />
-      </svg>
+      <img src={jerryCanUrl} alt="charity: water jerry can" className="h-8 w-auto" />
       <span className="text-lg font-extrabold tracking-tight text-navy">
         charity: <span className="italic font-medium">water</span>
       </span>
@@ -79,9 +77,7 @@ function Index() {
               <div className="absolute -inset-3 rounded-[2rem] bg-peach/50 -rotate-2" aria-hidden="true" />
               <img
                 src={heroImage}
-                alt="A young woman in Nepal laughing joyfully at a clean water tap in her village"
-                width={1536}
-                height={1536}
+                alt="A young girl in Nepal drinking clean water from a village tap"
                 className="relative aspect-square w-full rounded-[1.75rem] object-cover shadow-soft"
               />
               <div className="absolute -bottom-5 -left-5 hidden rounded-2xl bg-white p-4 shadow-soft md:block">
