@@ -12,12 +12,7 @@ export const Route = createFileRoute("/")({
 function JerryCanLogo({ className = "" }: { className?: string }) {
   return (
     <div className={`flex items-center gap-2 ${className}`}>
-      <svg viewBox="0 0 32 32" className="h-7 w-7" aria-hidden="true">
-        <rect x="6" y="8" width="18" height="20" rx="2" fill="var(--color-yellow)" />
-        <rect x="10" y="4" width="8" height="5" rx="1" fill="var(--color-yellow)" />
-        <rect x="13" y="14" width="6" height="2" fill="var(--color-navy)" opacity="0.85" />
-        <circle cx="24" cy="12" r="2" fill="var(--color-yellow)" />
-      </svg>
+      <img src={jerryCanUrl} alt="charity: water jerry can" className="h-8 w-auto" />
       <span className="text-lg font-extrabold tracking-tight text-navy">
         charity: <span className="italic font-medium">water</span>
       </span>
